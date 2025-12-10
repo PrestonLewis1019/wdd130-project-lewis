@@ -6,3 +6,19 @@
     display: block;
     margin: auto;
 }
+
+header {
+    background-color: rgb(177, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header a {
+    color: blue;
+}
