@@ -1,0 +1,88 @@
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+.section1{
+    text-align: center;
+}
+.section2{
+    text-align: center;
+}
+.description {
+    margin: auto;
+    text-align: center;
+}
+.symptom img{
+    display: block;
+    margin: auto;
+}
+
+.logo img{
+    width: 150px;
+    margin: 10px 0 0 10px;
+}
+
+header h1{
+    margin-left: -50px;
+}
+
+.links{
+    text-align: center;
+    background-color: rgb(127, 32, 32);
+    border-radius: 20px;
+    height: 40%;
+    margin: 20px 20px;
+    padding-top: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover{
+    background-color: rgb(95, 22, 22);
+}
+
+header {
+    background-color: rgb(177, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+.title{
+    color: rgb(242, 154, 154);
+    margin-left: 10px;
+}
+
+header a {
+    color: blue;
+}
+
+main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 20px;
+}
+
+main img{
+    grid-column: span 2;
+    width: 80%;
+    margin: auto;
+}
+#img2{
+    margin-top: -60px;
+}
+#text1 {
+    font-size: 25px;
+    text-align: left;
+    padding-right: 150px;
+    margin-left: -40px;
+}
+
+#text2{
+    font-size: 25px;
+    text-align: right;
+    margin-right: -40px;
+}
